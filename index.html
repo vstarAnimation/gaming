@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<style>
+    body{
+        
+        background: linear-gradient(rgba(0, 0, 0, 0.753), rgba(0, 0, 0, 0.521)), url('/v-star.png') no-repeat center center/cover;
+        background-position-y: 0px;
+        
+    }
+    .topnav {
+  overflow: hidden;
+  background-color: #a80000;
+}
+
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  
+}
+
+.topnav a:hover {
+  background-color: #720404;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #f32121;
+  color: white;
+}
+
+.topnav .search-container {
+  float: right;
+}
+
+.topnav input[type=text] {
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.topnav .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .search-container button:hover {
+  background: #ccc;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .search-container {
+    float: none;
+  }
+  .topnav{
+    display: flex;
+  }
+  .search-container{
+    display: none;
+  }
+  .topnav a, .topnav input[type=text], .topnav .search-container button {
+    float: none;
+    display: block;
+    text-align: left;
+    width: 40%;
+    margin: 0;
+    padding: 14px;
+  }
+  .topnav input[type=text] {
+    border: 1px solid #2e0000;  
+  }
+}
+.words{
+    font-size: 40px;
+    text-align: center;
+    color: #ddd;
+}
+.words h2{
+    color: rgba(170, 37, 37, 0.61);
+    font-weight: bold;
+}
+.words p {
+    font-size: 30px;
+}
+span{
+    color: red;
+    text-decoration: underline;
+
+}
+.btn button{
+    border-radius: 10px;
+    width: 170px;
+    height: 30px;
+    margin-left: 170px;
+    margin-top: 39px;
+    border: 0px;
+    color: #fff;
+    background: #000;
+    align-items: center;
+}
+
+.btn button:active{
+    color: #000;
+    background: #fff;
+}
+footer{
+    background: #720404;
+    height: 30px;
+    margin: 400px;
+    text-align: center;
+    align-items: center;
+    color: #ddd;
+    font-size: 20px;
+}
+@media (max-width: 480px) {
+    .card{
+        width: 80px;
+        height: 80px;
+    }
+    .btn button{
+        margin-left: 40px;
+        margin-top: 20px;
+    }
+}
+@media (max-width: 480px) {
+    h2{
+        font-size: 50px;
+    }
+    p{
+        font-size: 10px;
+    }
+    span{
+        font-size: 14px;
+    }
+    
+}
+</style>
+<body>
+    <header>
+        <div class="topnav">
+            <a class="active" href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <div class="search-container">
+              <form action="">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+        </div>
+    </header>
+    <div class="words">
+        <h2>WELCOME TO MY GAMING WEBSITE</h2>
+        <p>where you have the chance to play as much game you want</p>
+        <span>please choose</span>
+    </div>
+    <div class="btn">
+        <a href="/memory.html"><button>memory game</button></a>
+        <a href="tik.htm"><button>ai tic tak toe game</button></a>
+        <a href="game.html"><button>2 players tic tak toe game</button></a>
+        <a href="re.html"><button>to do list</button></a>
+    </div>
+    <div class="words">
+        <p>i wont give up, even if i kills me</p>
+    </div>
+
+    <footer>2025 copyright|all right resevered
+
+    </footer>
+
+</body>
+</html>
